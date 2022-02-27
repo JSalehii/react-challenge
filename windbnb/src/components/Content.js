@@ -1,13 +1,14 @@
 import React from 'react'
 import InfoTop from './InfoTop';
-
+import Items from './Items';
 
 
 const Content = () => {
   return (
-    <div>
+    <main className="main">
         <InfoTop />
-    </div>
+        <Items />
+    </main>
   )
 }
 

@@ -111,6 +111,7 @@ img {
 .item {
     display: grid;
     row-gap: 1rem;
+    cursor: pointer;
 }
 
 .item__img {
@@ -173,4 +174,65 @@ img {
     color: #656565;
     font-weight: bold;
     text-decoration: underline;
+}
+
+/* ==================== overlay mobile ======================= */
+
+.overlay {
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    padding: 1rem;
+    z-index: 100;
+}
+
+.overlay__close {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.overlay__form {
+    padding: 10px 0px;
+    border-radius: 16px;
+    margin-top: 1.5rem;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.overlay__form div {
+    display: grid;
+    row-gap: 10px;
+    padding: 16px 40px;
+}
+
+.overlay__form input {
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+.border__bottom {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.overlay .button {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button button {
+    border-radius: 16px;
+    padding: 20px 30px;
+    background: #eb5757;
+    color: #fff;
+}
+
+.button span {
+    vertical-align: bottom;
+    margin-right: 10px;
 }

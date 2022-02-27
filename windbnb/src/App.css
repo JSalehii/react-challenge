@@ -154,3 +154,23 @@ img {
     margin-right: 8px;
     color: #eb5757;
 }
+
+/* ==================== footer ======================= */
+
+.footer {
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #828282;
+}
+
+.footer a {
+    color: #656565;
+    font-weight: bold;
+    text-decoration: underline;
+}

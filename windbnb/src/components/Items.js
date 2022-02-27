@@ -72,7 +72,6 @@ const Items = () => {
             />
         );
     });
-    console.log(list);
 
     return <div className="items">{list}</div>;
 };

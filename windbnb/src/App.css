@@ -193,6 +193,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .overlay__form {
@@ -208,10 +209,19 @@ img {
     padding: 16px 40px;
 }
 
+.overlay__form div label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
 .overlay__form input {
     border: none;
     font-size: 16px;
     outline: none;
+}
+
+.overlay__form input::placeholder {
+    color: #bdbdbd;
 }
 
 .border__bottom {
@@ -225,14 +235,45 @@ img {
     transform: translateX(-50%);
 }
 
-.button button {
+.overlay .button button {
     border-radius: 16px;
     padding: 20px 30px;
     background: #eb5757;
     color: #fff;
+    cursor: pointer;
 }
 
-.button span {
+.overlay .button span {
     vertical-align: bottom;
     margin-right: 10px;
+}
+
+/* ==================== for tablet, ipad ======================= */
+
+@media screen and (min-width: 481px) {
+    .main {
+        margin: 0 4rem;
+    }
+}
+
+/* ==================== for laptops ======================= */
+
+@media screen and (min-width: 769px) {
+    .main {
+        margin: 0;
+    }
+
+    .items {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+    }
+}
+
+/* ==================== for desktop ======================= */
+
+@media screen and (min-width: 1024px) {
+    .items {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1.5rem;
+    }
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import InfoTop from "./InfoTop";
 import Items from "./Items";
-import Footer from "./Footer";
 
 
 const Content = () => {
@@ -9,7 +8,6 @@ const Content = () => {
         <main className="main">
             <InfoTop />
             <Items />
-            <Footer />
         </main>
     );
 };

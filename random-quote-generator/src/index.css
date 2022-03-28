@@ -21,6 +21,7 @@ html, body {
 .container {
     padding: 2rem;
     display: grid;
+    row-gap: 2rem;
 }
 
 .random {
@@ -36,13 +37,28 @@ html, body {
 
 }
 
+.name {
+    width: 450px;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    padding-left: 3.3rem;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+
 .item__container {
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
     justify-content: center;
     width: 450px;
-    height: 100vh;
+    height: 80vh;
     margin: 0 auto;
 }
 
@@ -77,4 +93,12 @@ html, body {
 .item__info:hover {
     background: #333;
     color: #fff;
+}
+
+.hide {
+    display: none;
+}
+
+.height {
+    height: auto;
 }

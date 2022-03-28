@@ -2,9 +2,9 @@ import React from "react";
 
 function Item(props) {
     return (
-        <div className="item__container">
+        <div className={props.flag ? 'item__container height' : 'item__container'}>
             <p>{props.text}</p>
-            <div className="item__info" onClick={props.showAllQuotes}>
+            <div className={props.flag ? 'item__info hide' : 'item__info'} onClick={() => props.getQuotes(props.name)}>
                 <div>
                     <h5>{props.name}</h5>
                     <h6>{props.genre}</h6>

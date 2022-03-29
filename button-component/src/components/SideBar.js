@@ -7,12 +7,12 @@ const SideBar = () => {
                 Dev<span>challenges.io</span>
             </h3>
             <div className="sidebar__link">
-                <a href="#">Colors</a>
-                <a href="#">Typography</a>
-                <a href="#">Spaces</a>
-                <a href="#">Buttons</a>
-                <a href="#" className="active">Inputs</a>
-                <a href="#">Grid</a>
+                <a href="#colors">Colors</a>
+                <a href="#typeography">Typography</a>
+                <a href="#spaces">Spaces</a>
+                <a href="#buttons">Buttons</a>
+                <a href="#inputs" className="active">Inputs</a>
+                <a href="#grid">Grid</a>
             </div>
         </div>
     );

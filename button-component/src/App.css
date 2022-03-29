@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500;600&family=Ubuntu+Mono&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*=============== sidebar =============*/
+.sidebar {
+    background-color: #fafbfd;
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    width: 20%;
+    font-family: 'Poppins', sans-serif;
+    padding: 3rem 4rem;
+}
+
+.sidebar__title {
+    color: #f7542e;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sidebar__title span {
+    color: #090f31;
+}
+
+.sidebar__link {
+    display: grid;
+    row-gap: 1.5rem;
+    margin-top: 5rem;
+}
+
+.sidebar__link a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #9e9e9e;
+}
+
+.active {
+    color: #090f31 !important;
+}
+
+/*=============== buttons =============*/
+.buttons {
+    position: absolute;
+    right: 0;
+    width: 80%;
+    padding: 2rem 3rem;
+    display: grid;
+    row-gap: 2rem;
+}
+
+.buttons__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: flex-end;
+}
+
+.button__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.button__item p {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.default {
+    background-color: #e0e0e0;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    width: max-content;
+    height: 36px;
+}
+
+.shadow {
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+.default__hover {
+    background-color: #aeaeae;
+}
+
+.outline {
+    color: #3d5afe;
+    background-color: transparent;
+    outline: 1px solid #3d5afe;
+}
+
+.outline__hover {
+    background: rgba(41, 98, 255, 0.1);
+}
+
+.text {
+    color: #3d5afe;
+    background-color: transparent;
+    padding: 0;
+    width: 0;
+}
+
+.text__hover {
+    color: #3d5afe;
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.disableshadow {
+    background-color: #3d5afe;
+    color: #fff;
+}
+
+.disabled {
+    color: #9e9e9e;
+}
+
+.disabled__text {
+    color: #9e9e9e;
+    background: transparent;
+    padding: 0;
+    width: 0;
+}
+
+.icon {
+    color: #fff;
+    background: #2962ff;
+    display: flex;
+    column-gap: 5px;
+}
+
+.sm {
+    background: #2962ff;
+    color: #fff;
+}
+
+.md {
+    height: 42px
+}
+
+.lg {
+    height: 50px;
+    width: 100px;
+}
+
+.primary {
+    color: #fff;
+    background: #2962ff;
+}
+
+.secondary {
+    color: #fff;
+    background: #455a64;
+}
+
+.danger {
+    color: #fff;
+    background: #d32f2f;
+}
+
+.gray {
+    background: #aeaeae;
+    color: #3f3f3f;
+}
+
+.blue {
+    background: #0039cb;
+    color: #fff;
+}
+
+.second {
+    background: #1c313a;
+    color: #fff;
+}
+
+.dang {
+    background: #9a0007;
+    color: #fff;
+}

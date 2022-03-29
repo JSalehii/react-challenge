@@ -4,7 +4,7 @@ const Button = (props) => {
     return (
         <div className="button__item">
             <p>{props.title}</p>
-            <button className={props.style} type="button" >
+            <button className={props.styles} type="button" >
                 {props.startIcon}
                 {props.name}
                 {props.endIcon}

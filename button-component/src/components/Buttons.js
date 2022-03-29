@@ -7,67 +7,67 @@ const Buttons = () => {
         <div className="buttons">
             <h1 className="buttons__title">Buttons</h1>
             <div className="buttons__list">
-                <Button style="default shadow" title="<Button />" />
+                <Button styles="default shadow" title="<Button />" />
                 <Button
-                    style="default shadow default__hover"
+                    styles="default shadow default__hover"
                     title="&:hover, &:focus"
                 />
             </div>
 
             <div className="buttons__list">
                 <Button
-                    style="default outline"
+                    styles="default outline"
                     title="<Button variant='outline' "
                 />
                 <Button
-                    style="default outline outline__hover"
+                    styles="default outline outline__hover"
                     title="&:hover, &:focus"
                 />
             </div>
 
             <div className="buttons__list">
                 <Button
-                    style="default text"
+                    styles="default text"
                     title="<Button variant=”text” /> "
                 />
-                <Button style="default text__hover" title="&:hover, &:focus" />
+                <Button styles="default text__hover" title="&:hover, &:focus" />
             </div>
 
             <div className="buttons__list">
                 <Button
-                    style="default disableshadow"
+                    styles="default disableshadow"
                     title="<Button disableShadow />"
                 />
             </div>
 
             <div className="buttons__list">
-                <Button style="default disabled" title="<Button disabled />" name="Disabled" />
-                <Button style="default disabled__text" title="Button variant='text' disabled" name="Disabled" />
+                <Button styles="default disabled" title="<Button disabled />" name="Disabled" />
+                <Button styles="default disabled__text" title="Button variant='text' disabled" name="Disabled" />
             </div>
 
             <div className="buttons__list">
-                <Button style="default icon" title="<Button startIcon='local_grocery_store' />" startIcon={icon} />
-                <Button style="default icon" title="<Button endIcon='local_grocery_store' />" endIcon={icon} />
+                <Button styles="default icon" title="<Button startIcon='local_grocery_store' />" startIcon={icon} />
+                <Button styles="default icon" title="<Button endIcon='local_grocery_store' />" endIcon={icon} />
             </div>
 
             <div className="buttons__list">
-                <Button style="default sm" title="<Button size='sm' />" />
-                <Button style="default sm md" title="<Button size='md' />" />
-                <Button style="default sm lg" title="<Button size='lg' />" />
+                <Button styles="default sm" title="<Button size='sm' />" />
+                <Button styles="default sm md" title="<Button size='md' />" />
+                <Button styles="default sm lg" title="<Button size='lg' />" />
             </div>
 
             <div className="buttons__list">
-                <Button style="default" title="<Button color='default' />" />
-                <Button style="default primary" title="<Button color='primary' />" />
-                <Button style="default secondary" title="<Button color='secondary' />" name="Secondary" />
-                <Button style="default danger" title="<Button color='danger' />" name="Danger" />
+                <Button styles="default" title="<Button color='default' />" />
+                <Button styles="default primary" title="<Button color='primary' />" />
+                <Button styles="default secondary" title="<Button color='secondary' />" name="Secondary" />
+                <Button styles="default danger" title="<Button color='danger' />" name="Danger" />
             </div>
 
             <div className="buttons__list">
-                <Button style="default gray" title="&:hover, &:focus" />
-                <Button style="default blue" />
-                <Button style="default second" name="Secondary" />
-                <Button style="default dang" name="Danger" />
+                <Button styles="default gray" title="&:hover, &:focus" />
+                <Button styles="default blue" />
+                <Button styles="default second" name="Secondary" />
+                <Button styles="default dang" name="Danger" />
             </div>
         </div>
     );

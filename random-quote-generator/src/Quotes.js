@@ -57,6 +57,7 @@ function Quote() {
                     src={Sync}
                     className="random__icon"
                     onClick={getRandomQuote}
+                    alt="random-icon"
                 />
             </div>
             <div className="name">{arr ? name : null}</div>
